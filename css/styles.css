@@ -252,3 +252,51 @@ nav {
     color: #fff;
     font-size: 24px;
 }
+
+.contact-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2{
+    font-size: 36px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 1px solid #CCC;
+    margin: 0 auto 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    width: 450px;
+    height: 150px;
+}
+
+.contact-container input[type=submit] {
+    /* para formatar somente uma área do formulário
+    você deve abrir o colchete e por o type que vai mexer */
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #FFF;
+}
+
+footer p{
+    text-align: center;
+    background-color: #232A31;
+    color: #FFF;
+    padding: 30px;
+}
+
+
